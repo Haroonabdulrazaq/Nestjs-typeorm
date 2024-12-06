@@ -44,7 +44,11 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
+## To create migration file
+use this, where PublicItems is the name of the migration file
+```bash
+$ ts-node ./node_modules/typeorm/cli migration:create ./migrations/PublicItems
+```
 ## Run tests
 
 ```bash
