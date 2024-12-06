@@ -87,10 +87,7 @@ export class ItemsService {
       item.tags = tags;
 
       const updatedItem = await transactionManager.save(item);
-    
-      console.log("+++++++++++++++++++++++++")
-      console.log(updatedItem);
-      console.log("+++++++++++++++++++++++++")
+  
       return {
         updatedItem,
         message: "Item updated successfully!"

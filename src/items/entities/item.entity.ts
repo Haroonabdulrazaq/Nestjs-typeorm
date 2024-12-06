@@ -1,7 +1,7 @@
 import { Column, Entity, JoinColumn, JoinTable, ManyToMany, OneToMany, OneToOne } from "typeorm";
 import { Listing } from "./listing.entity";
 import { Comment } from "./comment.entity";
-import { AbstractEntity } from "src/database/abstract.entity";
+import { AbstractEntity } from "../../database/abstract.entity";
 import { Tag } from "./tag.entity";
 
 @Entity()
